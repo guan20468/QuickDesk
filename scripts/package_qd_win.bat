@@ -92,7 +92,7 @@ echo=
 echo ---------------------------------------------------------------
 echo [*] installer created!
 echo ---------------------------------------------------------------
-echo [*] output: %output_path%\QuickDesk-win-x64-setup.exe
+echo [*] output: %output_path%\DaxiaRemote-win-x64-setup.exe
 echo=
 
 set errno=0

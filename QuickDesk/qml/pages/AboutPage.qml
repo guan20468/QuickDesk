@@ -63,7 +63,7 @@ Item {
                                 anchors.verticalCenter: parent.verticalCenter
 
                                 Text {
-                                    text: "QuickDesk"
+                                    text: "\u5927\u4FE0\u8FDC\u63A7"
                                     font.pixelSize: Theme.fontSizeXLarge
                                     font.weight: Font.Bold
                                     color: Theme.text
@@ -142,7 +142,7 @@ Item {
                                     }
 
                                     Text {
-                                        text: "https://github.com/barry-ran/QuickDesk"
+                                        text: "https://github.com/guan20468/QuickDesk"
                                         font.pixelSize: Theme.fontSizeSmall
                                         color: Theme.textSecondary
                                     }
@@ -161,7 +161,7 @@ Item {
                                 anchors.fill: parent
                                 hoverEnabled: true
                                 cursorShape: Qt.PointingHandCursor
-                                onClicked: Qt.openUrlExternally("https://github.com/barry-ran/QuickDesk")
+                                onClicked: Qt.openUrlExternally("https://github.com/guan20468/QuickDesk")
                             }
                         }
 

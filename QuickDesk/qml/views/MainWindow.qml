@@ -18,7 +18,7 @@ ApplicationWindow {
     minimumHeight: 600
     maximumHeight: 600
     visible: true
-    title: qsTr("QuickDesk")
+    title: qsTr("\u5927\u4FE0\u8FDC\u63A7")
     color: Theme.background
     
     onClosing: function(close) {
@@ -438,7 +438,7 @@ ApplicationWindow {
                             Text {
                                 visible: root.mainController && root.mainController.authManager
                                          && root.mainController.authManager.isLoggedIn
-                                text: "QuickDesk v" + APP_VERSION
+                                text: "\u5927\u4FE0\u8FDC\u63A7 v" + APP_VERSION
                                 font.pixelSize: Theme.fontSizeSmall
                                 color: Theme.textSecondary
                             }

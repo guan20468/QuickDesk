@@ -1,11 +1,11 @@
 ; QuickDesk Inno Setup Script
 ; Version placeholders are replaced by package_qd_win.bat before compilation
 
-#define MyAppName "QuickDesk"
-#define MyAppPublisher "QuickCoder"
-#define MyAppURL "https://github.com/user/QuickDesk"
-#define MyAppExeName "QuickDesk.exe"
-#define MyAppCopyright "Copyright (C) QuickCoder 2018-2038. All rights reserved."
+#define MyAppName "\u5927\u4FE0\u8FDC\u63A7"
+#define MyAppPublisher "\u5927\u4FE0\u5DE5\u4F5C\u5BA4"
+#define MyAppURL "https://qd.guan2046.com:16666"
+#define MyAppExeName "DaxiaRemote.exe"
+#define MyAppCopyright "Copyright (C) \u5927\u4FE0\u5DE5\u4F5C\u5BA4 2024-2026. All rights reserved."
 
 ; These are set via /D command line options from package_qd_win.bat
 #ifndef MyAppVersion
@@ -33,7 +33,7 @@ DefaultDirName={autopf}\{#MyAppName}
 DefaultGroupName={#MyAppName}
 DisableProgramGroupPage=no
 OutputDir={#MyOutputDir}
-OutputBaseFilename=QuickDesk-win-x64-setup
+OutputBaseFilename=DaxiaRemote-win-x64-setup
 SetupIconFile={#MyIconPath}
 UninstallDisplayIcon={app}\{#MyAppExeName}
 Compression=lzma2/max

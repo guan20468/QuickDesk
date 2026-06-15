@@ -56,8 +56,8 @@ int main(int argc, char *argv[])
 
     // QML FileDialog需要这个
     // 放在ApplicationContext::init后面设置，否则OrganizationName会包含在QStandardPaths::AppLocalDataLocation目录中
-    app.setOrganizationName("QuickCoder");
-    app.setApplicationName("QuickDesk");
+    app.setOrganizationName("\u5927\u4FE0\u5DE5\u4F5C\u5BA4");
+    app.setApplicationName("\u5927\u4FE0\u8FDC\u63A7");
 
     // 设置 Qt Quick Controls 使用 Basic 样式（允许完全自定义）
     QQuickStyle::setStyle("Basic");

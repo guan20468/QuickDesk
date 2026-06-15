@@ -14,7 +14,7 @@ Window {
     width: 1280
     height: 720
     visible: true
-    title: qsTr("QuickDesk - Remote Desktop")
+    title: qsTr("\u5927\u4FE0\u8FDC\u63A7 - Remote Desktop")
     
     // Properties
     property var clientManager: null

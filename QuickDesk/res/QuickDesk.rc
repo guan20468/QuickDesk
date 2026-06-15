@@ -20,11 +20,11 @@ BEGIN
     BEGIN
         BLOCK "080404b0"
         BEGIN
-            VALUE "CompanyName", "QuickCoder"
-            VALUE "FileDescription", "QuickDesk"
+            VALUE "CompanyName", "\u5927\u4FE0\u5DE5\u4F5C\u5BA4"
+            VALUE "FileDescription", "\u5927\u4FE0\u8FDC\u63A7"
             VALUE "FileVersion", VERSION_RC_STR
-            VALUE "LegalCopyright", "Copyright (C) QuickCoder 2018-2038. All rights reserved."
-            VALUE "ProductName", "QuickDesk"
+            VALUE "LegalCopyright", "Copyright (C) \u5927\u4FE0\u5DE5\u4F5C\u5BA4 2024-2026. All rights reserved."
+            VALUE "ProductName", "\u5927\u4FE0\u8FDC\u63A7"
             VALUE "ProductVersion", VERSION_RC_STR
         END
     END
